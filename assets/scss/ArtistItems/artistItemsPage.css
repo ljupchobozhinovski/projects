@@ -1,0 +1,36 @@
+.blueColor {
+  background-color: #1b59ac;
+}
+
+.greenColor {
+  background-color: #1bac6f;
+}
+
+.redColor {
+  background-color: #d54c2e;
+}
+
+.w-16 {
+  width: 16%;
+}
+
+.w-23 {
+  width: 23%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.smallerFont {
+  font-size: 10px;
+}
+/*# sourceMappingURL=artistItemsPage.css.map */

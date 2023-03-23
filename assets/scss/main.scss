@@ -1,0 +1,89 @@
+@import "../bootstrap/scss/bootstrap.scss";
+@import "./landingPage.scss";
+@import "./visitorHomePage.scss";
+@import "./visitorListingPage.scss";
+@import "./filters.scss";
+@import "./artistItemsPage.scss";
+@import "./artistHomePage.scss";
+@import "./artistAddNewItemPage.scss";
+@import "./auctionPage.scss";
+@import "./camera.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.page {
+  display: none;
+}
+.fontReenieBeenie {
+  font-family: "Reenie Beanie", cursive !important;
+}
+
+.fontSizeDefault {
+  font-size: 45px;
+}
+
+.btnLightGray {
+  background-color: #e5e5e5 !important;
+  color: #5a5a5a !important;
+}
+
+.defaultColors {
+  background-color: #fcebd5;
+  color: #a16a5e;
+}
+
+.reverseDefaultColors {
+  background-color: #a16a5e;
+  color: #fcebd5;
+}
+
+.darkBrownDefaultColor {
+  color: #a16a5e;
+}
+
+.lightBrownDefaultColor {
+  color: #fcebd5 !important;
+}
+
+.mainBackgroundColor {
+  background-color: #edd5bb;
+}
+
+.mainRedColor {
+  background-color: #d44c2e;
+}
+
+.redColor {
+color: #d44c2e;
+}
+
+.fontSizeXXLarge {
+  font-size: xx-large;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+}

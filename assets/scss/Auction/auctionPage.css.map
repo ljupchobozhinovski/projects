@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC,CAAC,CAAC;EACf,OAAO,EAAE,eAAe;CACzB;;AAED,AAAA,YAAY,CAAC;EACX,KAAK,EAAE,kBAAkB;EACzB,gBAAgB,EAAE,kBAAkB;EACpC,YAAY,EAAE,kBAAkB;CACjC",
+    "sources": [
+        "auctionPage.scss"
+    ],
+    "names": [],
+    "file": "auctionPage.css"
+}

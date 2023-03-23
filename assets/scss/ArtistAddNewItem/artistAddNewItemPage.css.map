@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,SAAS,EAAC,MAAM;CACnB",
+    "sources": [
+        "artistAddNewItemPage.scss"
+    ],
+    "names": [],
+    "file": "artistAddNewItemPage.css"
+}

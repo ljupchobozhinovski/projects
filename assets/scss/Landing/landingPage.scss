@@ -1,0 +1,50 @@
+.chooseArtistButton {
+  background-color: #edd5bb;
+  color: #a16a5e !important;
+  border: 3px solid #a16a5e;
+  margin: -15px;
+}
+.artist {
+  background-color: #edd5bb;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 42%);
+  position: absolute;
+  height: 300px;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  transition: all ease-in-out 0.5s;
+  border: 10px solid transparent;
+}
+
+.artist:hover {
+  transform: scale(1.1) translate(0px, -6px);
+  box-shadow: 0px 10px 20px 2px black;
+}
+
+.visitor {
+  margin-top: 127px;
+  height: 300px;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  transition: all ease-in-out 0.5s;
+  clip-path: polygon(0 0, 100% 58%, 100% 100%, 0 100%);
+  border: 10px solid transparent;
+}
+.visitorDiv a {
+  text-decoration: none;
+}
+
+.visitor:hover {
+  transform: scale(1.1) translate(0px, -6px);
+  box-shadow: 0px 10px 20px 2px black;
+}
+
+.w-60 {
+  width: 60%!important;
+}
+
+#navbarRow:hover {
+  background-color: #edd5bb!important;
+  
+}

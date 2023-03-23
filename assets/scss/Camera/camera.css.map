@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,UAAU,EAAE,IAAI,CAAA,UAAU;CAC7B",
+    "sources": [
+        "camera.scss"
+    ],
+    "names": [],
+    "file": "camera.css"
+}
