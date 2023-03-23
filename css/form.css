@@ -1,0 +1,36 @@
+.required-field {
+  color: #c82333;
+  font-size: smaller;
+}
+
+#required-name {
+  display: none;
+}
+
+#required-company {
+  display: none;
+}
+
+#required-email {
+  display: none;
+}
+
+#required-phone {
+  display: none;
+}
+
+#required-type {
+  display: none;
+}
+
+#valid-email {
+  display: none;
+}
+
+#valid-phone {
+  display: none;
+}
+
+.error-box {
+  border: 1px solid #c82333 !important;
+}
