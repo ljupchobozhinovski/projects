@@ -1,0 +1,357 @@
+.fs-72 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 50%;
+  right: 5%;
+  z-index: 99999;
+}
+
+.light-gray-color {
+  background-color: #f9f7f7;
+}
+
+.default-red-color {
+  color: #d73f3b;
+}
+
+.default-dark-red-color {
+  color: #b53834;
+}
+
+.default-blue-color {
+  color: #8aa6bf;
+}
+
+.default-light-gray-color {
+  background-color: #f9f7f7;
+}
+
+.default-white-color {
+  background-color: white;
+}
+
+.default-pink-color {
+  background-color: #f7d9d8;
+}
+
+.greyColor {
+  color: #d9d9d9;
+}
+
+.width-100 {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.hero-background {
+  background-image: url("../../public/images/homepageBackground.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.homepagePicture img {
+  max-width: 100%;
+  height: auto;
+}
+
+.whyDonateBg {
+  background-image: url("../../public/images/whyDonateBg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.testimonialsBg {
+  background-image: url("../../public/images/homepageTestimonialsBg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.testimonialsBg img {
+  height: 105px;
+}
+
+.footerVector {
+  background-image: url("../../public/images/footerVector.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.aboutUsImg img {
+  width: 100%;
+}
+
+.aboutUsHeroImg img {
+  width: 100%;
+}
+
+.aboutUsChangeDots img {
+  width: 50%;
+}
+
+.aboutUsBackgroundImg {
+  background-image: url("../../public/images/aboutUs/aboutUsMapBackground.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.marketing-background {
+  background-image: url("../../public/images/marketing/marketingHeroImg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.sliderCircle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.education-hero-background {
+  background-image: url("../../public/images/education/educationBtnNasckground.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.education-hero-hearts-background {
+  background-image: url("../../public/images/education/educationBackground.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.chooseLevelBackground {
+  background-image: url("../../public/images/education/skillsBackground.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.blogDetailsBackground {
+  background-image: url("../../public/images/blog/detailsBlogBackground.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactBackground {
+  background-image: url("../../public/images/contact/contactBackground.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.map {
+  width: 100%;
+  height: 25rem;
+}
+
+.contribute-up-background {
+  background-image: url("../../public/images/contribute/contributeBackground.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contribute-down-background {
+  background-image: url("../../public/images/contribute/contributeBackground.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.volunteer-engage-background {
+  background-image: url("../../public/images/volunteer/volunteerEngageBackground.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button-engage-background {
+  background-image: url("../../public/images/volunteer/volunteerEngageButtonBackground.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.attach-file-background {
+  background-image: url("../../public/images/volunteer/becomeAVolunteerRightBackground.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.arrow-background {
+  background-image: url("../../public/images/volunteer/becomeAVolunteerLeftBackground.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.volunteer-arrow-down {
+  background-image: url("../../public/images/volunteer/volunteerArrowDown.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.borderedIcon {
+  border: 5px solid #d73f3b;
+  border-radius: 50%;
+  padding: 1%;
+  margin: 2%;
+  padding: 2%;
+}
+
+.navbarIcon {
+  height: 50px;
+}
+
+.footerIcon {
+  height: 40px;
+}
+
+.donate-background {
+  background-image: url("../../public/images/donateFunds/donateBackground.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.position-relative-homePage {
+  position: relative;
+}
+
+.position-absolute-homePage-activism {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.position-absolute-homePage-children {
+  position: absolute;
+  top: 40%;
+  left: 8%;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.position-absolute-homePage {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.mr-30 {
+  margin-right: 30%;
+}
+
+.interview-background {
+  background-image: url("../../public/images/blog/interviewBackground.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.categoryPosition {
+  position: relative;
+  top: -25px;
+  left: -17px;
+}
+
+.imagePosition {
+  position: relative;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageHeight {
+  height: 100%;
+}
+
+.collapseDiv {
+  display: none;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.expandDiv {
+  display: block;
+  transition: 0.5s;
+}
+
+.headingRelative {
+  position: relative;
+  top: -200px;
+  right: -100px;
+}
+
+.imageAbsolute {
+  position: relative;
+}
+
+.faqBackground {
+  background-image: url("../../public/images/faq-background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shadowImg img:hover {
+  filter: drop-shadow(3px 4px 16px #939189);
+}
