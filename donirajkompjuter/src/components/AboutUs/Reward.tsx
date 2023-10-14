@@ -1,7 +1,5 @@
 import { PostType } from '@/Types/types';
 import React from "react";
-import "swiper/css";
-import "swiper/css/navigation";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

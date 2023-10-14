@@ -1,8 +1,5 @@
-import Link from 'next/link'
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import "swiper/swiper.min.css";
-import { Autoplay, Pagination, Navigation } from "swiper";
+import Link from 'next/link';
+import React from 'react';
 
 const Banner = () => {
 
@@ -57,27 +54,16 @@ const Banner = () => {
     return (
         <div className="container w-100 default-light-gray-color">
             <div className="d-flex align-items-center ">
-                <Swiper
-                    spaceBetween={50}
-                    slidesPerView={5}
-                    loop={true}
-                    autoplay={{
-                        delay: 2000,
-                        disableOnInteraction: false,
-                        pauseOnMouseEnter: true
-                    }}
-                    modules={[Autoplay, Pagination, Navigation]}
-                >
-                    {sponsors.map((sponsor) => {
-                        return (
-                            < SwiperSlide key={sponsor.alt}>
-                                <Link href={sponsor.link} target='_blank'>
-                                    <img className='mx-auto default-light-gray-color' src={sponsor.image} alt={sponsor.alt} />
-                                </Link>
-                            </SwiperSlide>
-                        )
-                    })}
-                </Swiper>
+                {sponsors.map((sponsor) => {
+                    return (
+                        <Link href={sponsor.link} target='_blank'>
+                            <div className=''>
+                                <img className='mx-auto default-light-gray-color swiper-img ' src={sponsor.image} alt={sponsor.alt} />
+                            </div>
+                        </Link>
+                    )
+                })}
+
             </div>
         </div >
     )

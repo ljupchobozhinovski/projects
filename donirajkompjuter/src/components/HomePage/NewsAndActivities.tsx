@@ -1,8 +1,6 @@
 import React from 'react'
 import useTranslation from 'next-translate/useTranslation';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import "swiper/css/pagination"; // if yo want to style it 
-import { Pagination } from "swiper";
+
 import PostItem from '../Post/PostItem';
 import { PostType } from '@/Types/types';
 
@@ -22,22 +20,12 @@ const NewsAndActivities = ({ posts }: Props) => {
                     </div>
                 </div>
                 <div className='row'>
-                    <Swiper
-                        slidesPerView={3}
-                        spaceBetween={30}
-                        modules={[Pagination]}
-                        className="mySwiper"
-                    >
-                        {posts.map((post) => {
-                            return (
-                                < SwiperSlide key={post.id}>
-                                    <PostItem key={post.id} post={post} />
-                                </SwiperSlide>
-                            )
-                        })}
 
-
-                    </Swiper>
+                    {posts.map((post) => {
+                        return (
+                            <PostItem key={post.id} post={post} />
+                        )
+                    })}
                 </div>
             </div >
         </>

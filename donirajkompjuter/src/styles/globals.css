@@ -355,3 +355,10 @@
 .shadowImg img:hover {
   filter: drop-shadow(3px 4px 16px #939189);
 }
+
+.swiper-img img {
+  width: 15%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
