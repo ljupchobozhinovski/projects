@@ -1,2 +1,2 @@
 export const server_url =
-  "https://645809beeb4e2a000886beb2--deluxe-brioche-df7b2a.netlify.app/.netlify/functions/api/";
+  "https://652a53255b675c0d279c22c5--doniraj-kompjuter-server.netlify.app/.netlify/functions/api/";
